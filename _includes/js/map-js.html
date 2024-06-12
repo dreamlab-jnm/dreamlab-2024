@@ -160,10 +160,10 @@
     }
     /* function to add objects to map */
     function objectMarkers(feature,latlng) {
-        var marker =  L.Marker(latlng, {alt: feature.properties.title});
-             {% if site.data.theme.map-cluster == true %}markers.addLayer(marker);{% endif %}
-             return marker;
-        }
+        var marker = L.marker(latlng, {alt: feature.properties.title});
+        {% if site.data.theme.map-cluster == true %}markers.addLayer(marker);{% endif %}
+        return marker;
+    }
 
     /* use geoJson features to add objects to map */
     var mapFeatures = L.geoJson(geodata, {
