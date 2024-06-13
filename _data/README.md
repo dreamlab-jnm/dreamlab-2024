@@ -1,4 +1,4 @@
-This readme file was created on June 11, 2024 by East Bay Ray.
+This readme file was created on June 11, 2024 by J. Martin.
 GENERAL INFORMATION
 	Title of Dataset:
 	Maintainer:
