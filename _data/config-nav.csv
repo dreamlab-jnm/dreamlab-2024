@@ -1,7 +1,7 @@
 display_name,stub,dropdown_parent
 Home,/
 View Collection,/browse.html
-Browse by....,,
+Browse by...,,
 Subjects,/subjects.html,Browse by...
 Locations,/locations.html,Browse by...
 Timeline,/timelinejs.html
